@@ -1,0 +1,17 @@
+[package]
+name = "claude-starship"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+description.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+anyhow.workspace = true
+claude-starship-common.workspace = true
+exec = "0.3"
